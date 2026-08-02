@@ -32,9 +32,9 @@ Freight_Rate_Modeling_Report.docx   # full write-up: EDA findings, split rationa
 score.py         # provided scorer (validates output format, renders the December chart)
 ```
 
-## Run everything
+## Run e
 
-```bash
+```
 # 1. Train & compare models (writes models/*.joblib and reports/model_comparison.csv)
 python src/train.py
 
@@ -67,5 +67,3 @@ python score.py --predictions validation_predictions.csv \
   safely imputed with training-set medians (numeric) or `category` dtype
   (categoricals) when absent, with explicit `*_missing` indicator flags.
 
-Full details — EDA findings, data-quality issues, preprocessing steps, and
-model-selection reasoning — are in `Freight_Rate_Modeling_Report.docx`.
