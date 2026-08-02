@@ -1,0 +1,34 @@
+{
+  "feature_cols": [
+    "pickup",
+    "delivery",
+    "equipment",
+    "distance",
+    "weight",
+    "log_distance",
+    "days_since_anchor",
+    "month",
+    "day_of_week",
+    "is_weekend",
+    "doy_sin",
+    "doy_cos",
+    "dow_sin",
+    "dow_cos",
+    "market_index",
+    "quote_signal",
+    "weight_missing",
+    "market_index_missing",
+    "quote_signal_missing",
+    "pickup_lat",
+    "pickup_lon",
+    "delivery_lat",
+    "delivery_lon",
+    "haversine_distance",
+    "circuity_ratio"
+  ],
+  "cat_cols": [
+    "pickup",
+    "delivery",
+    "equipment"
+  ]
+}
